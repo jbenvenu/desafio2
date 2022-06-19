@@ -1,0 +1,50 @@
+
+
+body{
+background-color: rgb(87, 73, 73);
+color: rgb(136, 189, 76);
+font-style: italic;
+flex-direction: column;
+}
+
+.header{
+    background-image: url(/assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 4em;
+    padding: 3em;
+    font-size: 3em;
+    text-align: center;
+    line-height: 0.5em;
+    }   
+  
+.discos{
+    /*height: 10px;*/
+    width: 50%;
+    margin: 0%;
+}
+
+.discos td{
+   width: 30%; 
+   padding: 1em;
+}
+
+.discos img{
+    width: 70%;
+    border: solid 1px rgb(184, 32, 32);
+}
+
+.wrapper {
+    min-height: calc(100% - 4rem);
+    position: relative;
+}
+
+.footer {
+   height: 4rem;
+   background-color: aqua;
+   text-align: center;
+   position: relative;
+   bottom: 0;
+   padding-bottom: center;
+   margin-top: auto;
+        }
